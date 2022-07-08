@@ -8,6 +8,7 @@
  
  ### **Overview**
 - In any production line safety of the worker is the first priority so that they can work safely and confidently which eventually increase the growth in a company. So this project try to solve that issue by building a system which can be deployed through **IP Camera, Microcontroller, Relay etc**.
+  - There are two lines in our system which makes worker cautious, one is safety line in which if workers hand reaches **ALARM Continously Set ON** and another is **Boundary Line** in which if workers hand reaches **Machine Automatically Swiched off from the command Microcontroller gives.**
 - Since **Faster RCNN** give unrealistic **MAP** value so I choose to finalized my model by training it on **SSD MobileNetV2 which give me a MAP in between 60 to 70.**
 
 ### **Architechture**
